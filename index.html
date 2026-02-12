@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="heart.png">
+    <title>Good Afternoon Sunny 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/viewerjs@1.11.6/dist/viewer.min.css">
+</head>
+
+<body>
+    <div id="intro-overlay" tabindex="0">
+        <div class="intro-content">
+            <div class="intro-title">Hi Sunny WKKWKWWK</div>
+            <div class="intro-title">Good Afternoon Sayangg</div>
+            <div class="intro-sub">Click Anywhere</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="game-card">
+
+            <div class="card-body">
+                <div class="image-container">
+                    <img src="image.png" alt="Love" class="main-image" id="preview-image" style="cursor: pointer;">
+                </div>
+
+                <div class="message-box">
+                    <p class="main-message">
+                        Sunnnyyyku Sayangkuu! 💕
+                    </p>
+                    <p class="description">
+                        Sayanggggkuuu Sunnnyyy main yukkk,
+                        jangan marah marahh terusss, nanti nanti cepat tua lohh.
+                        gamau kannn? ayooo buka laptopnnya buka valonya sayangkuu.
+                    </p>
+                    <p class="description">
+                        Gimana? Mau kan main bareng uwaa? 🥺
+                    </p>
+                </div>
+
+                <div class="buttons-container">
+                    <button class="btn btn-yes" data-answer="yes">
+                        ✨ Mau Banget! ✨
+                    </button>
+                    <button class="btn btn-no" data-answer="no">
+                        😢 Nanti Dulu
+                    </button>
+                </div>
+
+                <div id="response-message" class="response-message hidden"></div>
+            </div>
+        </div>
+
+        <div class="player-card">
+            <div class="player-icon">🎵</div>
+            <p class="player-title">Cinderella — Radja</p>
+            <div class="controls">
+                <button id="play-btn" class="control-btn">
+                    <span class="btn-icon">▶</span>
+                    <span class="btn-text">Play</span>
+                </button>
+                <button id="pause-btn" class="control-btn" disabled>
+                    <span class="btn-icon">⏸</span>
+                    <span class="btn-text">Pause</span>
+                </button>
+            </div>
+            <audio id="audio" preload="none" loop>
+                <source src="cinde.m4a" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <footer class="site-footer">
+            made with <span class="heart">♥</span> for you
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/viewerjs@1.11.6/dist/viewer.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
